@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested if</title>
+</head>
+<body>
+    <h3 id="txt"></h3>
+    <script>
+        let marks = prompt("Enter your marks")
+        if(marks<40){
+            document.getElementById('txt').innerHTML = "Fail"
+        }else if(marks>=40 && marks<50){
+            document.getElementById('txt').innerHTML = 'second class'
+        }else if(marks>=50 && marks< 70){
+            document.getElementById('txt').innerHTML = 'first class'
+        }else if(marks>=70){
+            document.getElementById('txt').innerHTML = 'distinction'
+        }
+    </script>
+</body>
+</html>
