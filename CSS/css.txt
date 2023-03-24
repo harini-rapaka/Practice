@@ -1,0 +1,135 @@
+CSS:
+	list-style-type ----> defines the format of the list type it should be.
+
+The default list-style-type value for an ordered list is decimal , whereas the default for an unordered list is disc
+ 
+* in css refers to it selects all html elements on the page.
+
+
+Verzeo
+================
+Css helps you make easy if we need the same styling to all the web pages.
+It is used for describing the presentation of web pages,include layout colors and fonts.It allows one to adapt the presentation to different type of devices,such as large screens,small screens and printers.
+It is not case sensitive but we shall be writing in lower case.
+
+CSS Advantages:
+#saves time
+#pages load faster
+#easy maintainance
+#superior styles to HTML
+#Multiple Device Connectivity
+#Global web standards
+
+3 ways to apply CSS to our web pages:
+a.Internal CSS(inside html file)
+b.External CSS(seperate file is created)
+c.Inline CSS(css for one special line)
+
+Syntax of CSS:
+			selector{
+					property:value;
+			}
+
+example:
+			h1{
+				color:red;
+			}
+
+16px==1em
+
+Properties:
+=============
+color:red
+font-family:arial
+font-size:1.3em
+text-align:left/center/right/justify
+background-color:yellow
+border:1px solid red;
+width: 300px;
+height: 300px;
+
+margin and padding ------> used for spacing
+
+margin is used to give space outside of the element
+padding is used to give space inside of the element
+
+margin:30px;
+padding:30px;
+
+list-style-type:none/circle/square/disc ----------> This will make the list serial number to be like circle,square and disc or none
+list-style-image:url(pic.jpg) ---->  This will make the serial number look like the image.
+
+Selectors:
+==========
+			selector{
+					property:value;
+			}
+
+1.Element/tag selector
+disadvantage---> if we want to change the color of first heading then we cant give for whole h2 which might include in other parts of code
+		ex:
+			h2{
+				color:red;
+			}
+2.Class selector --->starts with a dot
+		ex:
+			.test{
+				property:value;
+			}
+		class selector has to be called.
+		ex:
+			<h3 class="test"></h3>
+
+3. Id selector --> very useful while using javascript
+		id selector starts with #
+		id's and classes both are same but id's are uniquely defined(that is it shouldnt be called again and again) but classes can be called again to other attributes.
+		ex:
+			#test{
+				color:red;
+			}
+		id selector has to be called.
+		ex:
+			<h3 id="test"></h3>
+
+4.pseudo element selector
+	a:hover{
+	}
+
+text-decoration: none; ---->this will remove underlines to the links.
+a:hover --->this will change the background color if we move cursor to that particular text.
+
+float:left/right ----> basically divisions are blocks which will be placed one below other.
+				 but if you want side by side then we shall use float.
+
+container ----> this will keep all divisions in one container.
+
+#if we clear the float only we can add footer to the context.
+	clear:left/right/both;
+
+box-shadow: 10px(horizontal) 10px(vertical) 10px(blur) black(color of shadow);
+border-radius:30px;
+border-radius:0px 20px;
+border-radius:100%;
+
+top:10px;
+left:10px;
+right:10px;
+bottom:10px;
+
+position: static(default)/relative(move the elements from top box and down box)/absolute(move the things from the top page and bottom page)/fixed(the position wont change if you scroll down the web page);
+overflow ---> if the pic size is greater than the width and height it just overflows
+overflow: visible(default)/hidden(hides the rest content)/scroll(scroll bar is added both left and bottom)/auto(added scroll bar if its necessary only)
+
+animation:name time;
+@keyframes name{
+
+}
+
+External CSS:
+=============
+
+file name should be .css
+and we have to link external css to html by adding the below link in html
+<head>
+<link href="file.css" rel="stylesheet">
+</head>
