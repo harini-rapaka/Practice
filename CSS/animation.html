@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        @keyframes exam {
+            from{left:0px; top: 0px;}
+            to{left:1000px; top:0px; background-color: aqua;}
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border-radius: 100%;
+            position: relative;
+            animation: exam 3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    
+</body>
+</html>
