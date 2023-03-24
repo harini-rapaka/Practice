@@ -1,0 +1,85 @@
+HTML TAGS
+==========
+
+<br> ====> break the line
+<hr> ====> horizontal row
+
+Headings:
+==========
+<h1></h1> ====> big size heading
+<h2></h2>
+..<h6></h6>
+
+Paragraph:
+=========
+<p></p>
+
+Attributes: 
+============
+Extra features to a particular tag
+ex: <h1 align="centre"></h1>
+
+LIST ITEMS:
+===========
+1.ordered list <ol></ol>
+2.unordered list <ul></ul>
+
+INSERTING IMAGES:
+====================
+<img src="pic.jpg" width=300px border=2px title="name" alt="description">
+
+TABLES:
+=========
+<table></table>
+<tr></tr> ===>table row
+<td></td> ===> table data
+<th></th> ===> table head
+
+HYPERLINKS:
+=============
+<a href="file.html">link</a> --->anchor tag
+href ---> hyper reference
+
+FORMS:
+======
+<form></form>
+<label><</label>
+<input text="text/password/checkbox/radio/submit/reset/email/date/color/file" placeholder="text to be in box">
+<select>
+<option></option>
+</select>
+
+We can give values i.e...own name to our submit buttons and reset buttons.
+checkbox-----> selecting multiple options
+radio---->selecting only one option
+file---> creates a button where we can upload a file
+<textarea></textarea> -----> It can be used to type some content
+
+<iframe src="table.html" width=800px height=100px></iframe> -----> used to embed external content
+                   #html file inside html file
+		        #google maps,youtube video
+
+<div></div> -----> divisions are used to layout a webpage
+
+html5 tags:
+===========
+<video controls(used for play and rewind)>
+<source src="images/video.mp4" type="video/mp4">
+</video>
+<audio>
+<source src="images/audio.mp3" type="video/mp3">
+</audio>
+need css------------
+<header></header>
+<footer></footer>
+<aside></aside>
+<section></section>
+<article></article>
+<nav></nav>
+--------------------
+<figure>
+<img src="scene.jpg">
+<figcaption>some caption to figure</figcaption>
+</figure>
+<figcaption></figcaption>
+
