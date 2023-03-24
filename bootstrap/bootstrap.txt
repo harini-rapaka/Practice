@@ -1,0 +1,59 @@
+Bootstrap:
+==========
+It is a framework of css.
+
+getbootstap.com
+
+Using bootstrap we can make web pages responsive
+The website which works for all devices is responsive web design.
+
+Bootstrap contains alot of predefined classes.
+
+Bootstrap link for css:
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+Typography/text classes:
+========================
+text-primary
+text-danger
+text-success
+text-warning
+text-info
+text-dark
+info
+
+background colors classes:
+============================
+bg-success
+bg-primary
+bg-danger
+bg-warning
+bg-info
+bg-light
+bg-dark
+
+image classes:
+==============
+img-fluid ---> when we minimize to small the image should have only vertical scroll bar and not horizontal scroll bar that is the image should fit in the size of our window viewing.
+
+button classes:
+================
+btn
+btn-primary
+btn-danger
+btn-info
+btn-warning
+btn-success
+
+
+classes for divisions:
+======================
+
+Grid model:
+==========
+grid model contains 12 column grids
+
+container
+row
+col
+col-md-3
